@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Mural TTI",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mural.ly/*",
+        "http://localhost:4000/*"
+      ],
+      "js": ["main.js"]
+    }
+  ]
+}
